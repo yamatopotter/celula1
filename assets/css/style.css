@@ -72,8 +72,16 @@ section {
   max-width: 32px;
 }
 
+.btn:hover {
+  color: #efefef;
+}
+
 .whatsapp {
   background-color: #36b354;
+}
+
+.whatsapp:hover {
+  background-color: #1e824c;
 }
 
 .list-1 {
@@ -222,7 +230,7 @@ section {
 }
 
 .garantia {
-  background-color: #1170CA;
+  background-color: #00f;
 }
 
 .garantia .selo {
@@ -237,7 +245,7 @@ section {
 }
 
 .garantia .card {
-  background-color: #00f;
+  background-color: #1170CA;
   color: #efefef;
   padding: 20px;
   border-radius: 20px;
@@ -291,7 +299,7 @@ section {
 
 .diferencial .diferencial-qualidades {
   padding: 40px 0;
-  background-color: #1170CA;
+  background-color: #00f;
   color: #efefef;
   font-size: 1.5rem;
 }
@@ -376,6 +384,21 @@ section {
   .grafico-enem .graph-container p {
     font-size: 1.25rem;
   }
+  .grafico-enem .graph-container .graph1 {
+    width: 90%;
+  }
+  .grafico-enem .graph-container .graph2 {
+    width: 60%;
+  }
+  .grafico-enem .graph-container .graph3 {
+    width: 57%;
+  }
+  .grafico-enem .graph-container .graph4 {
+    width: 50%;
+  }
+  .grafico-enem .graph-container .graph5 {
+    width: 40%;
+  }
   .grafico-enem .graphbar {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -422,17 +445,14 @@ section {
     max-width: 200px;
   }
   .garantia .card {
-    background-color: #00f;
-    color: #efefef;
     padding: 20px;
-    border-radius: 20px;
     margin-bottom: 20px;
   }
   .garantia .card .card-title {
     margin-bottom: 20px;
   }
   .garantia .card .card-text {
-    line-height: 2rem;
+    line-height: 1.5rem;
   }
   .cto-1 .card {
     -webkit-transform: translate(0);
@@ -450,7 +470,7 @@ section {
   }
   .diferencial .diferencial-qualidades {
     padding: 20px 0;
-    background-color: #1170CA;
+    background-color: #00f;
     color: #efefef;
     font-size: 1.3rem;
   }

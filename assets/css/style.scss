@@ -67,10 +67,16 @@ section{
     img{
         max-width: 32px;
     }
+    &:hover{
+        color: #efefef;
+    }
 }
 
 .whatsapp{
     background-color: #36b354;
+    &:hover{
+        background-color: #1e824c;
+    }
 }
 
 .list-1{
@@ -197,7 +203,7 @@ section{
 }
 
 .garantia{
-    background-color: $darker-blue;
+    background-color: $royalblue;
 
     .selo{
         justify-content: center;
@@ -208,11 +214,10 @@ section{
     }
 
     .card{
-        background-color: $royalblue;
+        background-color: $darker-blue;
         color: #efefef;
         padding: 20px;
         border-radius: 20px;
-
         .card-title{
             margin-bottom: 20px;
         }
@@ -255,7 +260,7 @@ section{
     }
     .diferencial-qualidades{
         padding: 40px 0; 
-        background-color: $darker-blue;
+        background-color: $royalblue;
         color: #efefef;
         font-size:1.5rem;
     }
@@ -345,6 +350,22 @@ section{
             p{
                 font-size: 1.25rem;
             }
+
+            .graph1{
+                width: 90%;
+            }
+            .graph2{
+                width: 60%;
+            }
+            .graph3{
+                width: 57%;
+            }
+            .graph4{
+                width: 50%;
+            }
+            .graph5{
+                width: 40%;
+            }
         }
         .graphbar{
             display: flex;
@@ -391,17 +412,13 @@ section{
         }
     
         .card{
-            background-color: $royalblue;
-            color: #efefef;
             padding: 20px;
-            border-radius: 20px;
             margin-bottom: 20px;
             .card-title{
                 margin-bottom: 20px;
             }
-    
             .card-text{
-                line-height: 2rem;
+                line-height: 1.5rem;
             }
         }
     }
@@ -424,7 +441,7 @@ section{
         }
         .diferencial-qualidades{
             padding: 20px 0; 
-            background-color: $darker-blue;
+            background-color: $royalblue;
             color: #efefef;
             font-size:1.3rem;
         }
