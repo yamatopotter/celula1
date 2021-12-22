@@ -338,11 +338,6 @@ section {
   color: #efefef;
 }
 
-.cto-3 h1 {
-  font-family: "Roboto", sans-serif;
-  font-weight: bold;
-}
-
 @media (max-width: 768px) {
   body {
     font-family: "Roboto", sans-serif;
