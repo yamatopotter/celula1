@@ -55,6 +55,21 @@ section {
   color: #efefef;
   width: 280px;
   font-size: 1.5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 10px;
+  margin: 0 auto;
+}
+
+.btn img {
+  max-width: 32px;
 }
 
 .whatsapp {
@@ -318,5 +333,146 @@ section {
 .cto-3 h1 {
   font-family: "Roboto", sans-serif;
   font-weight: bold;
+}
+
+@media (max-width: 768px) {
+  body {
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+  }
+  h1, .title-1 {
+    font-size: 2.5rem;
+  }
+  h2 {
+    font-size: 1.25rem;
+    margin-bottom: 20px;
+  }
+  section {
+    padding: 20px 0;
+  }
+  .btn {
+    font-size: 1.25rem;
+  }
+  .list-1 {
+    font-size: 1.3rem;
+  }
+  .intro {
+    margin-top: 78px;
+    padding: 20px 0;
+    background: url("../img/bg.jpg") no-repeat center center/cover;
+    color: #efefef;
+  }
+  .intro .btn {
+    background: #ff5e00;
+    margin-bottom: 20px;
+  }
+  .intro iframe {
+    width: 100%;
+    height: 240px;
+  }
+  .grafico-enem .graph-container {
+    margin-bottom: 20px;
+  }
+  .grafico-enem .graph-container p {
+    font-size: 1.25rem;
+  }
+  .grafico-enem .graphbar {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    gap: 20px;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .grafico-enem .graphbar .graph-value {
+    font-weight: bold;
+    font-size: 1.25rem;
+  }
+  .grafico-enem .graphbar .graph {
+    height: 25px;
+    border-radius: 20px;
+  }
+  .classes {
+    background-color: #00f;
+    color: #efefef;
+  }
+  .classes h1 {
+    margin-bottom: 40px;
+  }
+  .classes .card {
+    margin-bottom: 25px;
+  }
+  .depoimentos iframe {
+    width: 100%;
+    height: 240px;
+    margin-bottom: 20px;
+  }
+  .garantia .selo {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin-bottom: 20px;
+  }
+  .garantia .selo img {
+    max-width: 200px;
+  }
+  .garantia .card {
+    background-color: #00f;
+    color: #efefef;
+    padding: 20px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+  }
+  .garantia .card .card-title {
+    margin-bottom: 20px;
+  }
+  .garantia .card .card-text {
+    line-height: 2rem;
+  }
+  .cto-1 .card {
+    -webkit-transform: translate(0);
+            transform: translate(0);
+  }
+  .cto-1 .card .card-title {
+    font-size: 1.75rem !important;
+  }
+  .diferencial {
+    padding: 0;
+  }
+  .diferencial .frase-impacto {
+    padding: 20px 0;
+    background-color: #e5f1f9;
+  }
+  .diferencial .diferencial-qualidades {
+    padding: 20px 0;
+    background-color: #1170CA;
+    color: #efefef;
+    font-size: 1.3rem;
+  }
+  .cto-2 ul {
+    font-size: 1.5rem;
+  }
+  .cto-2 .attention {
+    margin-top: 20px;
+    background-color: #cf000f;
+    color: #efefef;
+    font-size: 1.75rem;
+    font-weight: bold;
+    padding: 30px;
+    border-radius: 20px;
+  }
+  .cto-3 {
+    background-color: #ff5e00;
+    color: #efefef;
+  }
+  .cto-3 h1 {
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+  }
 }
 /*# sourceMappingURL=style.css.map */
