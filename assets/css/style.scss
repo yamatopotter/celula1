@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@700&family=Roboto:wght@400;700&display=swap');
+
+$yellow: #FFC734;
+$orange: #ff5e00;
+$purple: #5B36E2;
+$royalblue: #00f;
+$darker-blue: #1170CA;
+$light-blue: #e5f1f9;
+$green: #A3CF44;
+$bluesky: #8CE1F9;
+
+body{
+    font-family: "Roboto", sans-serif;
+}
+
+header{
+    position: fixed;
+    top:0;
+    width: 100%;
+    background: #fff;
+    padding:20px 0;
+    z-index: 999;
+    .row img{
+        max-width: 200px;
+    }
+}
+
+h1, .title-1{
+    font-size: 3.5rem;
+    font-family: "Lora", serif;
+    margin-bottom: 20px;
+}
+
+h2{
+    font-family: "Lora", serif;
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+section{
+    padding: 80px 0;
+}
+
+.underline{
+    text-decoration: underline;
+}
+
+.intro{
+    margin-top: 78px;
+    padding: 100px 0;
+    background: url("../img/bg.jpg") no-repeat center center/cover;
+    color: #efefef;
+
+    .btn{
+        background: $orange;
+        border-radius: 20px;
+        font-weight: bold;
+        text-transform: uppercase;
+        color:#efefef;
+    }
+
+    iframe{
+        width: 100%;
+        height: 320px;
+    }
+}
+
+.qualidade{
+
+
+    h1, h2{
+        color: $orange;
+        text-align: center;
+    }
+}
+
+.grafico-enem{
+    background-color: $light-blue;
+    .graph-container{
+        margin-bottom: 20px;
+        p{
+            margin-bottom: 0;
+            font-weight: bold;
+            font-size: 1.5rem;
+        }
+    }
+    .graphbar{
+        display: flex;
+        flex-direction: row;
+        gap:20px;
+        align-items: center;
+        .graph-value{
+            font-weight: bold;
+            font-size: 2rem;
+        }
+        .graph{
+            height: 30px;
+            border-radius: 20px;
+        }
+        .graph1{
+            width: 90%;
+            background-color: $yellow;
+        }
+        .graph2{
+            width: 70%;
+            background-color: $purple;
+        }
+        .graph3{
+            width: 67%;
+            background-color: $orange;
+        }
+        .graph4{
+            width: 60%;
+            background-color: $green;
+        }
+        .graph5{
+            width: 50%;
+            background-color: $bluesky;
+        }
+    }
+}
+
+.classes{
+    background-color: $royalblue;
+    color: #efefef;    
+    h1{
+        margin-bottom: 40px;
+    }
+    .card{
+        color: #0a0a0a;
+        border-radius: 20px;
+        border: 0;
+        .card-title{
+            padding: 20px 0;
+            text-align: center;
+            background-color: $orange;
+            color: #efefef;
+            border-radius: 20px 20px 0 0;
+            font-family: "Roboto", sans-serif;
+            font-weight: bold;
+        }
+        .card-text{
+            padding: 20px;
+        }
+    }
+}
+
+.depoimentos{
+    iframe{
+        width: 100%;
+        height: 320px;
+        margin-bottom: 20px;
+    }
+}
+
+.publico{
+    background-color: $light-blue;
+    h1, .title-1{
+        color: $darker-blue;
+    }
+
+    ul{
+        list-style: none;
+        font-size: 2rem;
+        font-weight: bold;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        li:before{
+            content: "- ";
+        }
+    }
+}
+
+.garantia{
+    
+}

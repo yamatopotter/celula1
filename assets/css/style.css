@@ -1,0 +1,187 @@
+@import url("https://fonts.googleapis.com/css2?family=Lora:wght@700&family=Roboto:wght@400;700&display=swap");
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background: #fff;
+  padding: 20px 0;
+  z-index: 999;
+}
+
+header .row img {
+  max-width: 200px;
+}
+
+h1, .title-1 {
+  font-size: 3.5rem;
+  font-family: "Lora", serif;
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-family: "Lora", serif;
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
+
+section {
+  padding: 80px 0;
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+.intro {
+  margin-top: 78px;
+  padding: 100px 0;
+  background: url("../img/bg.jpg") no-repeat center center/cover;
+  color: #efefef;
+}
+
+.intro .btn {
+  background: #ff5e00;
+  border-radius: 20px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #efefef;
+}
+
+.intro iframe {
+  width: 100%;
+  height: 320px;
+}
+
+.qualidade h1, .qualidade h2 {
+  color: #ff5e00;
+  text-align: center;
+}
+
+.grafico-enem {
+  background-color: #e5f1f9;
+}
+
+.grafico-enem .graph-container {
+  margin-bottom: 20px;
+}
+
+.grafico-enem .graph-container p {
+  margin-bottom: 0;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.grafico-enem .graphbar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  gap: 20px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.grafico-enem .graphbar .graph-value {
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+.grafico-enem .graphbar .graph {
+  height: 30px;
+  border-radius: 20px;
+}
+
+.grafico-enem .graphbar .graph1 {
+  width: 90%;
+  background-color: #FFC734;
+}
+
+.grafico-enem .graphbar .graph2 {
+  width: 70%;
+  background-color: #5B36E2;
+}
+
+.grafico-enem .graphbar .graph3 {
+  width: 67%;
+  background-color: #ff5e00;
+}
+
+.grafico-enem .graphbar .graph4 {
+  width: 60%;
+  background-color: #A3CF44;
+}
+
+.grafico-enem .graphbar .graph5 {
+  width: 50%;
+  background-color: #8CE1F9;
+}
+
+.classes {
+  background-color: #00f;
+  color: #efefef;
+}
+
+.classes h1 {
+  margin-bottom: 40px;
+}
+
+.classes .card {
+  color: #0a0a0a;
+  border-radius: 20px;
+  border: 0;
+}
+
+.classes .card .card-title {
+  padding: 20px 0;
+  text-align: center;
+  background-color: #ff5e00;
+  color: #efefef;
+  border-radius: 20px 20px 0 0;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+}
+
+.classes .card .card-text {
+  padding: 20px;
+}
+
+.depoimentos iframe {
+  width: 100%;
+  height: 320px;
+  margin-bottom: 20px;
+}
+
+.publico {
+  background-color: #e5f1f9;
+}
+
+.publico h1, .publico .title-1 {
+  color: #1170CA;
+}
+
+.publico ul {
+  list-style: none;
+  font-size: 2rem;
+  font-weight: bold;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 20px;
+}
+
+.publico ul li:before {
+  content: "- ";
+}
+/*# sourceMappingURL=style.css.map */
