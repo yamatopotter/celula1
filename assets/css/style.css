@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Lora:wght@700&family=Roboto:wght@400;700&display=swap");
 body {
   font-family: "Roboto", sans-serif;
+  font-size: 18px;
 }
 
 header {
@@ -34,6 +35,24 @@ section {
 
 .underline {
   text-decoration: underline;
+}
+
+.list-1 {
+  list-style: none;
+  font-size: 2rem;
+  font-weight: bold;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 20px;
+}
+
+.list-1 li:before {
+  content: "- ";
 }
 
 .intro {
@@ -167,7 +186,82 @@ section {
   color: #1170CA;
 }
 
-.publico ul {
+.garantia {
+  background-color: #1170CA;
+}
+
+.garantia .selo {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 80px;
+}
+
+.garantia .selo img {
+  max-width: 350px;
+}
+
+.garantia .card {
+  background-color: #00f;
+  color: #efefef;
+  padding: 20px;
+  border-radius: 20px;
+}
+
+.garantia .card .card-title {
+  margin-bottom: 20px;
+}
+
+.garantia .card .card-text {
+  line-height: 2rem;
+}
+
+.cto-1 {
+  background: url("../img/dots.svg");
+  background-size: 30px 30px;
+}
+
+.cto-1 .card {
+  background-color: #FFE885;
+  padding: 40px;
+  border-radius: 20px;
+  border: 0px;
+  -webkit-transform: translate(100px, 50px);
+          transform: translate(100px, 50px);
+  z-index: 20;
+}
+
+.cto-1 .card .card-title {
+  font-size: 2.5rem !important;
+}
+
+.cto-1 .card .card-text {
+  font-weight: bold;
+  color: #ff5e00;
+}
+
+.cto-1 img {
+  width: 100%;
+  border-radius: 20px;
+}
+
+.diferencial {
+  padding: 0;
+}
+
+.diferencial .frase-impacto {
+  padding: 40px 0;
+  background-color: #e5f1f9;
+}
+
+.diferencial .diferencial-qualidades {
+  padding: 40px 0;
+  background-color: #1170CA;
+  color: #efefef;
+  font-size: 1.5rem;
+}
+
+.cto-2 ul {
   list-style: none;
   font-size: 2rem;
   font-weight: bold;
@@ -181,7 +275,28 @@ section {
   gap: 20px;
 }
 
-.publico ul li:before {
-  content: "- ";
+.cto-2 ul li:before {
+  content: "\2714";
+  color: green;
+}
+
+.cto-2 .attention {
+  margin-top: 40px;
+  background-color: #cf000f;
+  color: #efefef;
+  font-size: 2rem;
+  font-weight: bold;
+  padding: 60px;
+  border-radius: 20px;
+}
+
+.cto-3 {
+  background-color: #ff5e00;
+  color: #efefef;
+}
+
+.cto-3 h1 {
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
 }
 /*# sourceMappingURL=style.css.map */
