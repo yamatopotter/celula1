@@ -297,6 +297,31 @@ section{
     color: #efefef;
 }
 
+.main-footer{
+    padding: 80px 0;
+    background-color: $light-blue;
+    iframe{
+        width:100%;
+        height: 350px;
+    }
+
+    .dados-escola{
+        img{
+            max-height: 70px;
+            margin-bottom: 20px;
+        }
+
+        ul{
+            list-style: none;
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+            font-weight: bold;
+            padding: 0;
+        }
+    }
+}
+
 @media (max-width:768px){
     body{
         font-family: "Roboto", sans-serif;
@@ -450,6 +475,13 @@ section{
             font-size: 1.75rem;
             padding: 30px;
             border-radius: 20px;
+        }
+    }
+
+    .main-footer{
+        padding: 20px 0;
+        iframe{
+            margin-bottom: 20px;
         }
     }
 }
