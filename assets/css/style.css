@@ -96,6 +96,7 @@ section {
       -ms-flex-direction: column;
           flex-direction: column;
   gap: 20px;
+  margin: 0;
 }
 
 .list-1 li:before {
@@ -456,17 +457,11 @@ section {
   .cto-1 .card .card-title {
     font-size: 1.75rem !important;
   }
-  .diferencial {
-    padding: 0;
-  }
   .diferencial .frase-impacto {
     padding: 20px 0;
-    background-color: #e5f1f9;
   }
   .diferencial .diferencial-qualidades {
     padding: 20px 0;
-    background-color: #00f;
-    color: #efefef;
     font-size: 1.3rem;
   }
   .cto-2 ul {
@@ -474,20 +469,9 @@ section {
   }
   .cto-2 .attention {
     margin-top: 20px;
-    background-color: #cf000f;
-    color: #efefef;
     font-size: 1.75rem;
-    font-weight: bold;
     padding: 30px;
     border-radius: 20px;
-  }
-  .cto-3 {
-    background-color: #ff5e00;
-    color: #efefef;
-  }
-  .cto-3 h1 {
-    font-family: "Roboto", sans-serif;
-    font-weight: bold;
   }
 }
 /*# sourceMappingURL=style.css.map */
