@@ -110,6 +110,10 @@ section{
 
 .qualidade{
 
+    .icon{
+        margin:0 auto 20px;
+        display: block;
+    }
 
     h1, h2{
         color: $orange;
@@ -215,8 +219,8 @@ section{
     }
 
     .card{
-        background-color: $darker-blue;
-        color: #efefef;
+        background-color: #efefef;
+        color: #0a0a0a;
         padding: 20px;
         border-radius: 20px;
         .card-title{

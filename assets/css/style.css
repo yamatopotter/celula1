@@ -119,6 +119,11 @@ section {
   height: 320px;
 }
 
+.qualidade .icon {
+  margin: 0 auto 20px;
+  display: block;
+}
+
 .qualidade h1, .qualidade h2 {
   color: #ff5e00;
   text-align: center;
@@ -246,8 +251,8 @@ section {
 }
 
 .garantia .card {
-  background-color: #1170CA;
-  color: #efefef;
+  background-color: #efefef;
+  color: #0a0a0a;
   padding: 20px;
   border-radius: 20px;
 }
