@@ -465,6 +465,9 @@ section {
     height: 240px;
     margin-bottom: 20px;
   }
+  .publico .list-1 {
+    margin-bottom: 20px;
+  }
   .garantia .selo {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
