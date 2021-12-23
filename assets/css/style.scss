@@ -200,6 +200,9 @@ section{
 
 .publico{
     background-color: $light-blue;
+    .list-1{
+        margin-bottom: 20px;
+    }
     h1, .title-1{
         color: $darker-blue;
     }

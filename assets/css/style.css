@@ -230,6 +230,10 @@ section {
   background-color: #e5f1f9;
 }
 
+.publico .list-1 {
+  margin-bottom: 20px;
+}
+
 .publico h1, .publico .title-1 {
   color: #1170CA;
 }
