@@ -284,13 +284,17 @@ section{
     }
 
     .attention{
-        margin-top: 40px;;
+        margin-top: 40px;
         background-color: #cf000f;
         color: #efefef;
         font-size: 2rem;
         font-weight: bold;
         padding: 60px;
         border-radius: 20px;
+
+        p:first-child{
+            text-align: center;
+        }
     }
 }
 
