@@ -340,6 +340,7 @@ section {
 
 .cto-2 .attention p:first-child {
   text-align: center;
+  text-transform: uppercase;
 }
 
 .cto-3 {
