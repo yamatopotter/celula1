@@ -34,6 +34,7 @@
             'https://connect.facebook.net/en_US/fbevents.js');
         fbq('init', '379669443959299');
         fbq('track', 'PageView');
+        fbq('track', 'Contact');
     </script>
     <noscript><img height="1" width="1" style="display:none"
             src="https://www.facebook.com/tr?id=379669443959299&ev=PageView&noscript=1" /></noscript>
@@ -72,6 +73,13 @@
         }
     </script>
 
+    <script type="text/javascript">
+        document.getElementById('cta1').addEventListener('379669443959299', false);
+        document.getElementById('cta2').addEventListener('379669443959299', false);
+        document.getElementById('cta3').addEventListener('379669443959299', false);
+        document.getElementById('cta4').addEventListener('379669443959299', false);
+    </script>
+
 </head>
 
 <body>
@@ -92,7 +100,7 @@
                         <p>Do 6º ano ao pré-vestibular somos especializados em conquistas.</p>
 
                         <a onclick="return gtag_report_conversion('https://docs.google.com/forms/d/e/1FAIpQLScnrSAhAMZLmeknar3ZdvpaMqnK5A9AizgwhSg_OShSNU4hoA/viewform');" href="https://docs.google.com/forms/d/e/1FAIpQLScnrSAhAMZLmeknar3ZdvpaMqnK5A9AizgwhSg_OShSNU4hoA/viewform"
-                            class="btn btn-lg">quero saber mais</a>
+                            class="btn btn-lg" id="cta1">quero saber mais</a>
                     </div>
 
                     <div class="col-12 col-md-6">
@@ -305,7 +313,7 @@ gyroscope; picture-in-picture" loading="lazy" allowfullscreen></iframe>
                         <h2 class="title-1">Se nossa escola é para você...</h2>
 
                         <a onclick="return gtag_report_conversion('https://api.whatsapp.com/send?phone=5521969679838&text=Ol%C3%A1%20C%C3%A9lula%201,%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es%20sobre%20a%20escola.');" href="https://api.whatsapp.com/send?phone=5521969679838&text=Ol%C3%A1%20C%C3%A9lula%201,%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es%20sobre%20a%20escola."
-                            class="btn btn-lg whatsapp">Fale agora <img src="./assets/img/whatsapp.png"
+                            class="btn btn-lg whatsapp" id="cta2">Fale agora <img src="./assets/img/whatsapp.png"
                                 alt="ícone do whatsapp"></a>
                     </div>
                 </div>
@@ -358,7 +366,7 @@ gyroscope; picture-in-picture" loading="lazy" allowfullscreen></iframe>
                             <p class="card-text">Não se engane, nosso programa de descontos torna tudo mais
                                 acessível. <span class="underline">Fale conosco e saiba mais</span>.</p>
                             <a onclick="return gtag_report_conversion('https://api.whatsapp.com/send?phone=5521969679838&text=Ol%C3%A1%20C%C3%A9lula%201,%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es%20sobre%20a%20escola.');" href="https://api.whatsapp.com/send?phone=5521969679838&text=Ol%C3%A1%20C%C3%A9lula%201,%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es%20sobre%20a%20escola."
-                                class="btn btn-lg whatsapp">Fale agora <img src="./assets/img/whatsapp.png"
+                                class="btn btn-lg whatsapp" id="cta3">Fale agora <img src="./assets/img/whatsapp.png"
                                     alt="ícone do whatsapp"></a>
                         </div>
                     </div>
@@ -425,7 +433,7 @@ gyroscope; picture-in-picture" loading="lazy" allowfullscreen></iframe>
                     <div class="col-12">
                         <h1>Fale agora conosco e ganhe um presente especial de boas vindas no ato da matrícula!</h1>
                         <a onclick="return gtag_report_conversion('https://api.whatsapp.com/send?phone=5521969679838&text=Ol%C3%A1%20C%C3%A9lula%201,%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es%20sobre%20a%20escola.');" href="https://api.whatsapp.com/send?phone=5521969679838&text=Ol%C3%A1%20C%C3%A9lula%201,%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es%20sobre%20a%20escola."
-                            class="btn btn-lg whatsapp">Fale agora <img src="./assets/img/whatsapp.png"
+                            class="btn btn-lg whatsapp" id="cta4">Fale agora <img src="./assets/img/whatsapp.png"
                                 alt="ícone do whatsapp"></a>
                     </div>
                 </div>
