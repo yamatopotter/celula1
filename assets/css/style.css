@@ -119,6 +119,22 @@ section {
   height: 320px;
 }
 
+.intro p {
+  font-weight: bold;
+}
+
+.intro .space-between {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column;
+          flex-flow: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
 .grafico-enem .graph-container {
   margin-bottom: 20px;
 }
@@ -457,6 +473,38 @@ section {
   padding: 0;
 }
 
+@media (max-width: 992px) {
+  .pre-enem {
+    height: 98px;
+  }
+  .novo-ensino-medio h2 {
+    height: 137px;
+  }
+  .novo-ensino-medio .caminhos-universidade {
+    padding-bottom: 36px;
+  }
+  .ensino-fundamental-2 .card {
+    -webkit-transform: translate(0, 0);
+            transform: translate(0, 0);
+    margin-bottom: 40px;
+  }
+  .ensino-fundamental-2 .card .card-title {
+    font-size: 1.65rem !important;
+  }
+  .cto-2 .card {
+    -webkit-transform: translate(0, 0);
+            transform: translate(0, 0);
+    margin-bottom: 40px;
+  }
+  .cto-2 .card .card-title {
+    font-size: 1.65rem !important;
+  }
+  .cto-2 img {
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+}
+
 @media (max-width: 768px) {
   body {
     font-family: "Roboto", sans-serif;
@@ -571,6 +619,15 @@ section {
   .garantia .card .card-text {
     line-height: 1.5rem;
   }
+  .novo-ensino-medio h2 {
+    height: initial;
+  }
+  .novo-ensino-medio .card {
+    margin-bottom: 20px;
+  }
+  .novo-ensino-medio .caminhos-universidade {
+    padding-bottom: 10px;
+  }
   .cto-1 .card {
     -webkit-transform: translate(0);
             transform: translate(0);
@@ -578,19 +635,12 @@ section {
   .cto-1 .card .card-title {
     font-size: 1.75rem !important;
   }
-  .diferencial .frase-impacto {
-    padding: 20px 0;
+  .cto-3 ul {
+    font-size: 1.25rem;
   }
-  .diferencial .diferencial-qualidades {
-    padding: 20px 0;
-    font-size: 1.3rem;
-  }
-  .cto-2 ul {
-    font-size: 1.5rem;
-  }
-  .cto-2 .attention {
+  .cto-3 .attention {
     margin-top: 20px;
-    font-size: 1.75rem;
+    font-size: 1.5rem;
     padding: 30px;
     border-radius: 20px;
   }
