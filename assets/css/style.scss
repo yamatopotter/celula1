@@ -5,7 +5,8 @@ $orange: #ff5e00;
 $purple: #5B36E2;
 $royalblue: #00f;
 $darker-blue: #1170CA;
-$light-blue: #e5f1f9;
+$light-blue-bg: #e5f1f9;
+$light-blue-title: #0095DA;
 $green: #A3CF44;
 $bluesky: #8CE1F9;
 
@@ -108,20 +109,7 @@ section{
     }
 }
 
-.qualidade{
-    .icon{
-        margin:0 auto 20px;
-        display: block;
-    }
-
-    h1, h2{
-        color: $orange;
-        text-align: center;
-    }
-}
-
 .grafico-enem{
-    background-color: $light-blue;
     .graph-container{
         margin-bottom: 20px;
         p{
@@ -164,6 +152,29 @@ section{
             background-color: $bluesky;
         }
     }
+    .microdados{
+        display: flex;
+        justify-content: end;
+        font-weight: bold;
+    }
+}
+
+.qualidade{
+    background-color: $light-blue-bg;
+
+    h1{
+        color: $light-blue-title;
+    }
+
+    .icon{
+        margin:0 auto 20px;
+        display: block;
+    }
+
+    h2{
+        color: $orange;
+        text-align: center;
+    }
 }
 
 .classes{
@@ -190,6 +201,44 @@ section{
     }
 }
 
+.novo-ensino-medio{
+    .descricao-ensino-medio{
+        font-weight: bold;
+    }
+
+    .card{
+        background-color: $light-blue-bg;
+        color: #0a0a0a;
+        border-radius: 20px;
+        border: 0;
+        
+        .card-title{
+            padding: 20px 0;
+            text-align: center;
+            color: $orange;
+            font-weight: bold;
+        }
+        .card-text{
+            padding: 0 20px;
+            font-weight: bold;
+            height: 100%;
+        }
+    }
+    .card-extra-info{
+        position: relative;
+        bottom: 0;
+        background-color: $orange;
+        border-radius: 0 0 20px 20px;
+        text-align: left;
+        padding: 10px 20px;
+        color: #efefef;
+        font-weight: bold;     
+        p{
+            margin-bottom: 0;
+        }
+    }
+}
+
 .depoimentos{
     iframe{
         width: 100%;
@@ -199,7 +248,7 @@ section{
 }
 
 .publico{
-    background-color: $light-blue;
+    background-color: $light-blue-bg;
     .list-1{
         margin-bottom: 20px;
     }
@@ -226,6 +275,7 @@ section{
         border-radius: 20px;
         .card-title{
             margin-bottom: 20px;
+            color: $orange;
         }
 
         .card-text{
@@ -235,17 +285,23 @@ section{
 }
 
 .cto-1{
-    background:  url("../img/dots.svg");
-    background-size: 30px 30px;
+    background-color: $light-blue-bg;
+    h1{
+        color: $light-blue-title;
+        text-align: center;
+    }
+}
+
+.ensino-fundamental-2{
+    background-color: $royalblue;
     .card{
-        background-color: #FFE885;
         padding: 40px;
         border-radius: 20px;
         border: 0px;
-        transform: translate(100px, 50px);
+        transform: translate(40px, 320px);
         z-index: 20;
         .card-title{
-            font-size: 2.5rem !important;
+            font-size: 2rem !important;
         }
         .card-text{
             font-weight: bold;
@@ -258,21 +314,66 @@ section{
     }
 }
 
+// .cto-1{
+//     background:  url("../img/dots.svg");
+//     background-size: 30px 30px;
+//     .card{
+//         background-color: #FFE885;
+//         padding: 40px;
+//         border-radius: 20px;
+//         border: 0px;
+//         transform: translate(100px, 140px);
+//         z-index: 20;
+//         .card-title{
+//             font-size: 2rem !important;
+//         }
+//         .card-text{
+//             font-weight: bold;
+//             color: $orange;
+//         }
+//     }
+//     img{
+//         width:100%;
+//         border-radius: 20px;
+//     }
+// }
+
 .diferencial{
-    padding: 0;    
-    .frase-impacto{
-        padding: 40px 0; 
-        background-color: $light-blue;
-    }
-    .diferencial-qualidades{
-        padding: 40px 0; 
-        background-color: $royalblue;
-        color: #efefef;
-        font-size:1.5rem;
+    background-color: $light-blue-bg;  
+    h1{
+        color: #0095DA;
     }
 }
 
 .cto-2{
+    .card{
+        background-color: #FFE885;
+        padding: 40px;
+        border-radius: 20px;
+        border: 0px;
+        transform: translate(100px, 140px);
+        z-index: 20;
+        .card-title{
+            font-size: 2rem !important;
+        }
+        .card-text{
+            font-weight: bold;
+            color: $orange;
+        }
+    }
+    img{
+        width:100%;
+        border-radius: 20px;
+    }
+    .btn{
+        margin-top: 40px;
+    }
+}
+
+.cto-3{
+    background-color: $royalblue;
+    color: #efefef;
+
     ul{
         list-style: none;
         font-size: 2rem;
@@ -280,19 +381,19 @@ section{
         display: flex;
         flex-direction: column;
         gap: 20px;
-        li:before{
-            content: "\2714";
-            color: green;
-        }
+        // li:before{
+        //     content: "\2714";
+        //     color: green;
+        // }
     }
 
     .attention{
         margin-top: 40px;
-        background-color: #cf000f;
+        background-color: $orange;
         color: #efefef;
         font-size: 2rem;
         font-weight: bold;
-        padding: 60px;
+        padding: 40px;
         border-radius: 20px;
 
         p:first-child{
@@ -302,14 +403,9 @@ section{
     }
 }
 
-.cto-3{
-    background-color: $orange;
-    color: #efefef;
-}
-
 .main-footer{
     padding: 80px 0;
-    background-color: $light-blue;
+    background-color: $light-blue-bg;
     iframe{
         width:100%;
         height: 350px;

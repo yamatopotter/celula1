@@ -119,20 +119,6 @@ section {
   height: 320px;
 }
 
-.qualidade .icon {
-  margin: 0 auto 20px;
-  display: block;
-}
-
-.qualidade h1, .qualidade h2 {
-  color: #ff5e00;
-  text-align: center;
-}
-
-.grafico-enem {
-  background-color: #e5f1f9;
-}
-
 .grafico-enem .graph-container {
   margin-bottom: 20px;
 }
@@ -192,6 +178,34 @@ section {
   background-color: #8CE1F9;
 }
 
+.grafico-enem .microdados {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+  font-weight: bold;
+}
+
+.qualidade {
+  background-color: #e5f1f9;
+}
+
+.qualidade h1 {
+  color: #0095DA;
+}
+
+.qualidade .icon {
+  margin: 0 auto 20px;
+  display: block;
+}
+
+.qualidade h2 {
+  color: #ff5e00;
+  text-align: center;
+}
+
 .classes {
   background-color: #00f;
   color: #efefef;
@@ -218,6 +232,45 @@ section {
 
 .classes .card .card-text {
   padding: 20px;
+}
+
+.novo-ensino-medio .descricao-ensino-medio {
+  font-weight: bold;
+}
+
+.novo-ensino-medio .card {
+  background-color: #e5f1f9;
+  color: #0a0a0a;
+  border-radius: 20px;
+  border: 0;
+}
+
+.novo-ensino-medio .card .card-title {
+  padding: 20px 0;
+  text-align: center;
+  color: #ff5e00;
+  font-weight: bold;
+}
+
+.novo-ensino-medio .card .card-text {
+  padding: 0 20px;
+  font-weight: bold;
+  height: 100%;
+}
+
+.novo-ensino-medio .card-extra-info {
+  position: relative;
+  bottom: 0;
+  background-color: #ff5e00;
+  border-radius: 0 0 20px 20px;
+  text-align: left;
+  padding: 10px 20px;
+  color: #efefef;
+  font-weight: bold;
+}
+
+.novo-ensino-medio .card-extra-info p {
+  margin-bottom: 0;
 }
 
 .depoimentos iframe {
@@ -262,6 +315,7 @@ section {
 
 .garantia .card .card-title {
   margin-bottom: 20px;
+  color: #ff5e00;
 }
 
 .garantia .card .card-text {
@@ -269,51 +323,83 @@ section {
 }
 
 .cto-1 {
-  background: url("../img/dots.svg");
-  background-size: 30px 30px;
+  background-color: #e5f1f9;
 }
 
-.cto-1 .card {
-  background-color: #FFE885;
+.cto-1 h1 {
+  color: #0095DA;
+  text-align: center;
+}
+
+.ensino-fundamental-2 {
+  background-color: #00f;
+}
+
+.ensino-fundamental-2 .card {
   padding: 40px;
   border-radius: 20px;
   border: 0px;
-  -webkit-transform: translate(100px, 50px);
-          transform: translate(100px, 50px);
+  -webkit-transform: translate(40px, 320px);
+          transform: translate(40px, 320px);
   z-index: 20;
 }
 
-.cto-1 .card .card-title {
-  font-size: 2.5rem !important;
+.ensino-fundamental-2 .card .card-title {
+  font-size: 2rem !important;
 }
 
-.cto-1 .card .card-text {
+.ensino-fundamental-2 .card .card-text {
   font-weight: bold;
   color: #ff5e00;
 }
 
-.cto-1 img {
+.ensino-fundamental-2 img {
   width: 100%;
   border-radius: 20px;
 }
 
 .diferencial {
-  padding: 0;
-}
-
-.diferencial .frase-impacto {
-  padding: 40px 0;
   background-color: #e5f1f9;
 }
 
-.diferencial .diferencial-qualidades {
-  padding: 40px 0;
-  background-color: #00f;
-  color: #efefef;
-  font-size: 1.5rem;
+.diferencial h1 {
+  color: #0095DA;
 }
 
-.cto-2 ul {
+.cto-2 .card {
+  background-color: #FFE885;
+  padding: 40px;
+  border-radius: 20px;
+  border: 0px;
+  -webkit-transform: translate(100px, 140px);
+          transform: translate(100px, 140px);
+  z-index: 20;
+}
+
+.cto-2 .card .card-title {
+  font-size: 2rem !important;
+}
+
+.cto-2 .card .card-text {
+  font-weight: bold;
+  color: #ff5e00;
+}
+
+.cto-2 img {
+  width: 100%;
+  border-radius: 20px;
+}
+
+.cto-2 .btn {
+  margin-top: 40px;
+}
+
+.cto-3 {
+  background-color: #00f;
+  color: #efefef;
+}
+
+.cto-3 ul {
   list-style: none;
   font-size: 2rem;
   font-weight: bold;
@@ -327,29 +413,19 @@ section {
   gap: 20px;
 }
 
-.cto-2 ul li:before {
-  content: "\2714";
-  color: green;
-}
-
-.cto-2 .attention {
+.cto-3 .attention {
   margin-top: 40px;
-  background-color: #cf000f;
+  background-color: #ff5e00;
   color: #efefef;
   font-size: 2rem;
   font-weight: bold;
-  padding: 60px;
+  padding: 40px;
   border-radius: 20px;
 }
 
-.cto-2 .attention p:first-child {
+.cto-3 .attention p:first-child {
   text-align: center;
   text-transform: uppercase;
-}
-
-.cto-3 {
-  background-color: #ff5e00;
-  color: #efefef;
 }
 
 .main-footer {
