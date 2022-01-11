@@ -354,6 +354,8 @@ section{
 }
 
 .cto-2{
+    background:  url("../img/dots.svg");
+    background-size: 30px 30px;
     .card{
         background-color: #FFE885;
         padding: 40px;
@@ -565,9 +567,17 @@ section{
         }
         .card{
             margin-bottom: 25px;
+            .pre-enem{
+                height: initial;
+            }
         }
     }
-    
+    .ensino-fundamental-2{
+        .card{
+            margin-bottom: 0
+        }
+    }
+
     .depoimentos{
         iframe{
             width: 100%;
@@ -622,6 +632,12 @@ section{
             .card-title{
                 font-size: 1.75rem !important;
             }
+        }
+    }
+
+    .cto-2{
+        .card{
+            margin-bottom:0;
         }
     }
     
