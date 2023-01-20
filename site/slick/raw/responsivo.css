@@ -1,0 +1,122 @@
+
+/*Tablets*/
+
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+
+    .overflow
+    {
+        font-size: 0.85em;    
+    }
+    
+    .overflow-ne
+    {
+        line-height: normal;
+    }
+    
+    .overflow-tablet
+    {
+        hyphens: auto;
+        -webkit-hyphens: auto;
+        -moz-hyphens: auto;
+        -ms-hyphens: auto;
+        line-height: normal;
+    }
+    
+    .exame .lista-especialidades
+    {
+        min-height:0px;
+    }
+    
+    .resgate img
+    {
+        width: 100%;
+        height: auto;
+    }
+}
+
+/*Smartphones*/
+
+@media only screen and (max-width: 767px) {
+	
+	
+    h1
+    {
+    font-size: 3em;
+    }
+
+    h2
+    {
+        font-size: 2.0em;
+    }
+
+    h3
+    {
+        font-size: 1.5em;
+		padding: 5px 0;
+	}
+    
+    body
+    {
+        font-size: 0.875em;
+    }
+	
+	header
+	{
+		width:100%;
+		position: relative;
+	}
+    
+    header .logo
+    {
+        display: inline-block;
+        float: left;
+        width: 150px;
+    }
+    
+    .logo img
+    {
+        width: 100%;
+        height: auto;
+    }
+    
+	.intro
+	{
+		margin-top:0px;
+	}
+    
+    .sobre
+    {
+        display: block;
+    }
+    
+    .lista-especialidades
+    {
+        min-height: 0px;
+    }
+		    
+    .exame .lista-especialidades
+    {
+        min-height:0px;
+    }
+    
+    .resgate img
+    {
+        width: 100%;
+        height: auto;
+    }
+    
+    .footer_right
+    {
+        text-align: center;
+    }
+    
+    .ei-slider
+    {
+        position: relative;
+        width: 100%;
+        max-width: 1920px;
+        height: 300px;
+        margin: 0 auto;
+        display: block;
+    }
+}

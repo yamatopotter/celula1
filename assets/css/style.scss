@@ -20,7 +20,7 @@ header{
     top:0;
     width: 100%;
     background: #fff;
-    padding:20px 0;
+    padding:10px 0;
     z-index: 999;
     display: flex;
     box-shadow: 0px 2px 5px 0px rgba(97,97,97,0.75);
@@ -98,7 +98,7 @@ section{
 }
 
 .intro{
-    margin-top: 78px;
+    margin-top: 55px;
     padding: 100px 0;
     background: url("../img/bg.jpg") no-repeat center center/cover;
     color: #efefef;
@@ -206,6 +206,7 @@ section{
             color: #efefef;
             border-radius: 20px 20px 0 0;
             font-weight: bold;
+            text-transform: uppercase;
         }
         .card-text{
             padding: 20px;
@@ -229,6 +230,7 @@ section{
             text-align: center;
             color: $orange;
             font-weight: bold;
+            text-transform: uppercase;
         }
         .card-text{
             padding: 0 20px;
@@ -389,6 +391,10 @@ section{
     }
 }
 
+.cto-4 h1{
+    color: $orange;
+}
+
 .main-footer{
     padding: 80px 0;
     background-color: $light-blue-bg;
@@ -469,7 +475,7 @@ section{
     }
     
     section{
-        padding: 20px 0;
+        padding: 40px 0;
     }
 
     .btn{
@@ -479,9 +485,16 @@ section{
     .list-1{
         font-size: 1.3rem;
     }
+
+    .ensino-fundamental-2, .cto-2{
+        padding: 30px 0;
+    }
+
+    .cto-2 .btn{
+        margin-top: 20px;
+    }
     
     .intro{
-        margin-top: 78px;
         padding: 20px 0;
         background: url("../img/bg.jpg") no-repeat center center/cover;
         color: #efefef;
@@ -502,6 +515,10 @@ section{
             margin-bottom: 20px;
             p{
                 font-size: 1.25rem;
+            }
+
+            .titulo-grafico-pequeno{
+                font-size:1rem;
             }
 
             .graph1{
@@ -626,9 +643,19 @@ section{
         .attention{
             margin-top: 20px;
             font-size: 1.5rem;
-            padding: 30px;
+            padding: 20px;
             border-radius: 20px;
+            display: flex;
+            flex-flow: column;
+            gap: 10px;
+            p{
+                margin-bottom: 0;
+            }
         }
+    }
+
+    .cto-4 h1{
+        font-size: 2rem;
     }
 
     .main-footer{
