@@ -187,6 +187,11 @@ section{
         color: $orange;
         text-align: center;
     }
+
+    .new-card{
+        display: flex;
+        gap:20px;
+    }
 }
 
 .classes{

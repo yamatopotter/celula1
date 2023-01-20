@@ -169,6 +169,10 @@ section {
   color: #ff5e00;
   text-align: center;
 }
+.qualidade .new-card {
+  display: flex;
+  gap: 20px;
+}
 
 .classes {
   background-color: #00f;
